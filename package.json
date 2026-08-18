@@ -1,0 +1,26 @@
+{
+  "name": "docsort",
+  "version": "1.0.0",
+  "description": "DocSort an explanable rule based engine to priotse docs and routing",
+  "homepage": "https://github.com/Star90lord/DocSort#readme",
+  "bugs": {
+    "url": "https://github.com/Star90lord/DocSort/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Star90lord/DocSort.git"
+  },
+  "license": "ISC",
+  "author": "Altamash, Tanisha",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.2"
+  }
+}
